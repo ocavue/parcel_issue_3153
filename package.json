@@ -1,0 +1,13 @@
+{
+  "name": "tmp_parcel_issue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build1": "parcel build index.html",
+    "build2": "parcel build index.html --experimental-scope-hoisting"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.2"
+  }
+}
